@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automation System Auditory Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Automation System Auditory Analyzer</h1>
+            <p>Sonification of simulated automated processes</p>
+        </header>
+
+        <main>
+            <div id="visualizer-container">
+                <canvas id="visualizer"></canvas>
+            </div>
+
+            <div id="controls">
+                <div class="control-group">
+                    <h2>Simulation</h2>
+                    <button id="btn-start">Start Simulation</button>
+                    <button id="btn-stop" disabled>Stop</button>
+                    <button id="btn-reset">Reset</button>
+                </div>
+
+                <div class="control-group">
+                    <h2>Interventions</h2>
+                    <button id="btn-load-spike">Trigger Load Spike</button>
+                    <button id="btn-network-pulse">Trigger Network Pulse</button>
+                    <button id="btn-error-burst">Trigger Error Burst</button>
+                </div>
+
+                <div class="control-group">
+                    <h2>Audio</h2>
+                    <button id="btn-audio-init">Initialize Audio</button>
+                    <label>
+                        <input type="checkbox" id="chk-mute"> Mute
+                    </label>
+                </div>
+            </div>
+
+            <div id="metrics">
+                <div class="metric-card">
+                    <h3>CPU Load</h3>
+                    <div class="value" id="val-cpu">0%</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Memory</h3>
+                    <div class="value" id="val-mem">0%</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Network</h3>
+                    <div class="value" id="val-net">0 Mbps</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Errors</h3>
+                    <div class="value" id="val-err">0/s</div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
