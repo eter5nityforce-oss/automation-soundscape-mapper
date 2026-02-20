@@ -1,0 +1,12 @@
+127.0.0.1 - - [26/Jan/2026 23:39:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:39:39] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:39:39] "GET /src/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:39:39] "GET /src/ui/Visualizer.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:39:39] "GET /src/simulation/Simulator.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:39:39] "GET /src/audio/DroneSynth.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:39:39] "GET /src/audio/RhythmSynth.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:39:39] "GET /src/audio/AudioManager.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:39:39] "GET /src/audio/GlitchSynth.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:39:39] "GET /src/ui/UIManager.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:39:39] "GET /src/audio/SoundModule.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:39:39] "GET /src/simulation/Process.js HTTP/1.1" 200 -
